@@ -155,7 +155,7 @@ while True:
         score_sound.play()
         score_a += 1
         pen.clear()
-        pen.write(f"Player A: turtle{score_a} Player B: {score_b}", align="center", font=("Courier", 35, "normal"))
+        pen.write(f"Player A: {score_a} Player B: {score_b}", align="center", font=("Courier", 35, "normal"))
 
     if ball.xcor() < -390:
         ball.goto(0, 0)
