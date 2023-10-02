@@ -7,7 +7,7 @@ import turtle
 import os
 import sys
 import pygame
-import random
+
 
 pygame.mixer.init()
 
